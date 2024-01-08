@@ -21,12 +21,7 @@ de datos que creamos y hemos levantado un servicio **Odoo**.
 
 
 
-  ![Odoo](./home/postgres/Escritorio/OdooWork.png)
-
-
-
-
-
+![Odoo](./img/OdooWork.png)
 
 
 
