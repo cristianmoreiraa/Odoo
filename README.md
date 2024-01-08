@@ -17,6 +17,17 @@ empresas pueden adaptar sus funciones según sus necesidades específicas.
 una base de datos llamada `odoo`. Con este otro programa llamado `Odoo`, lo hemos vinculado con la base 
 de datos que creamos y hemos levantado un servicio **Odoo**.
 + Ahora nos falta configurar este servicio a nuestro gusto
-  ![Odoo](/home/postgres/Escritorio/OdooWork.png)
+
+
+
+
+  ![Odoo](./home/postgres/Escritorio/OdooWork.png)
+
+
+
+
+
+
+
 
 ### Seguiremos trabajando en este proyecto
