@@ -26,8 +26,12 @@ services:
     image: postgres:15
     # mapeo de puertos para poder acceder a las base de datos desde el IDE
     ports:
-      -
+      - "5432:5432"
+    # variables de entorno de la imagen postgres15
     environment:
-      - POSTGRES_DB=postgres
+      # usuario administrador
+      # no podemos cambiar porque odoo por defecto se conecta como postgres
+      # - POSTGRES_DB=postgres
+      # contraseña superuser para conectarse desde fuera
       - POSTGRES_PASSWORD=myodoo
       - POSTGRES_USER=odoo
