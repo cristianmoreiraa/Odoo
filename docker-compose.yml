@@ -1,17 +1,32 @@
 version: '3.1'
 services:
+  # servicio de la aplicacion
   web:
+    # Imagen de la aplicacion, con su version
     image: odoo:16.0
+    # Servicio de base de datos que usa la aplicacion
+    # esta aplicacion depende de este servicio
+    # no arrancará hasta que el servicio esté levantado
     depends_on:
       - mydb
+      # mapeo de puertos para acceder desde mi maquina
     ports:
       - "8069:8069"
+      # variable de entorno
     environment:
+      # nombre o IP del gestor de base de datos
       - HOST=mydb
+      # usuario administrador/superusuario del gestor de la base de datos
       - USER=odoo
+      # contrsaseña de administrador del gestor de base de datos
       - PASSWORD=myodoo
+  #servicio gestor de base de datos
   mydb:
+    #imagen utilizada y su version
     image: postgres:15
+    # mapeo de puertos para poder acceder a las base de datos desde el IDE
+    ports:
+      -
     environment:
       - POSTGRES_DB=postgres
       - POSTGRES_PASSWORD=myodoo

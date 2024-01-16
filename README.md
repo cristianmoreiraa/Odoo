@@ -26,3 +26,10 @@ de datos que creamos y hemos levantado un servicio **Odoo**.
 
 
 ### Seguiremos trabajando en este proyecto
+        
+        Efectivamente segumimos trabajando en la tarea.
+
+### Este es el preview de Odoo
+
+
+![Pov](./img/POV.png)
