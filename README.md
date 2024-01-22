@@ -33,3 +33,30 @@ de datos que creamos y hemos levantado un servicio **Odoo**.
 
 
 ![Pov](./img/POV.png)
+
+## Aquí empezamos la parte 2 de este proyecto 22/01/24
+
+### 1. Cómo crear usarios y ponérles contraseña:
+
+* Accederemos a la cuadrado de arriba a la izquierda presionando en el
+y seleccionaremos ajustes.
+
+![User](./img/Odoo.png)
+
+* Una vez dentro de este menú, tendrémos que hacer click en *Nuevo* y nos aparecerá el siguiente menú
+dónde configurarémos al usuario.
+
+![User1](./img/Screenshot_1.png)
+
+* Cuando acabemos de configurar al usuario le añadirémos una contraseña, de la siguient manera:
+  * Haciendo click en el lado derecho de la pantalla donde pone *Acción*.
+    Nos saldrá el siguiente menú para configurarle al constraseña.
+
+![Pass](./img/pass.png)
+
+    En este caso le estaríamos cambiado la contraseña al usuario: Jorge
+
+#### Una vez explicado como crear usuarios y como cambiarles la contraseña vamos a ver como crear un proyecto.
+   
+
+
